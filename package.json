@@ -1,0 +1,35 @@
+{
+  "name": "com.reborn.fgui",
+  "displayName": "RebornFGUI",
+  "version": "1.0.0",
+  "unity": "2021.3",
+  "description": "Reborn 框架的 UI 管理层：面板生命周期、层级栈导航、包引用计数、多屏分屏与全局控制器。UI 运行时基于 FairyGUI-unity 5.2.0（MIT, Copyright (c) 2015 fairygui.com）。详见 README。",
+  "type": "library",
+  "hideInEditor": false,
+  "license": "MIT",
+  "keywords": [
+    "fairygui",
+    "fgui",
+    "ui",
+    "reborn",
+    "splitscreen"
+  ],
+  "author": {
+    "name": "Reborn Studio",
+    "email": "435554532@qq.com",
+    "url": "https://github.com/LinZhiWeiNB"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LinZhiWeiNB/RebornFrameFGUI.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LinZhiWeiNB/RebornFrameFGUI/issues"
+  },
+  "homepage": "https://github.com/LinZhiWeiNB/RebornFrameFGUI#readme",
+  "dependencies": {
+    "com.reborn.utils": "1.0.0",
+    "com.reborn.reborncore": "1.0.0",
+    "com.unity.inputsystem": "0.0.0"
+  }
+}

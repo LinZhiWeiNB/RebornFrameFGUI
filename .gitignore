@@ -1,0 +1,19 @@
+# 迁移工作目录（含官方 FairyGUI-unity clone 与比对脚本），仅本地保留
+.migration/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vs/
+.vscode/
+*.csproj
+*.sln
+*.user
+
+# Unity
+Temp/
+Library/
+obj/
